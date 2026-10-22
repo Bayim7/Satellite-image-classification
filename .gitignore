@@ -1,0 +1,63 @@
+# Ignore the data set 
+Data Sets-20260516/
+data/
+public_test_data/
+
+#project description
+project.pdf
+
+# Ignore model weights 
+assets/weights/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python virtual environments 
+pycache/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+
+# Ignore Linux system files 
+.DS_Store
+
+
+#IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore the data folders
+Data Sets-20260516/
+*.zip
+*.png
+
+# Ignore Python/Jupyter cache
+.ipynb_checkpoints/
+__pycache__/
+
+
+#Ignore my first submission
+submission.csv
+
+#Ignore all large model weights by default
+*.pth
+*.pt
+
+
+
+=========================
+
+#PyTorch Model Weights
+
+=========================
+
+!assets/weights/best_satellite_cnn.pth
+
+=========================
+
+
