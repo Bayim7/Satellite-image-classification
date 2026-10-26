@@ -1,4 +1,16 @@
-torch
-torch vision
-pandas
+# Web Application Framework
 shiny
+
+# Core Machine Learning & Data Processing
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+
+# Image Processing
+Pillow
+
+# Data Visualization (Notebook EDA)
+matplotlib
+seaborn

@@ -1,63 +1,22 @@
-# Ignore the data set 
-Data Sets-20260516/
-data/
-public_test_data/
-
-#project description
-project.pdf
-
-# Ignore model weights 
-assets/weights/
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Ignore Python virtual environments 
-pycache/
-*.py[cod]
-*$py.class
-.env
-.venv
-env/
-venv/
-
-# Ignore Linux system files 
-.DS_Store
-
-
-#IDEs
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Ignore the data folders
+# 1. Datasets and Archives (Too large for GitHub)
 Data Sets-20260516/
 *.zip
-*.png
 
-# Ignore Python/Jupyter cache
-.ipynb_checkpoints/
+# 2. Duplicate Model Weights 
+# (We ignore the backup in assets to save space, but DO NOT ignore the one inside app/)
+assets/weights/*.pth
+
+# 3. Python & Jupyter Cache
 __pycache__/
+*.pyc
+.ipynb_checkpoints/
 
+# 4. Virtual Environments
+venv/
+env/
+.venv/
+.env
 
-#Ignore my first submission
-submission.csv
-
-#Ignore all large model weights by default
-*.pth
-*.pt
-
-
-
-=========================
-
-#PyTorch Model Weights
-
-=========================
-
-!assets/weights/best_satellite_cnn.pth
-
-=========================
-
-
+# 5. OS Generated Files
+.DS_Store
+Thumbs.db
