@@ -1,16 +1,6 @@
-# Web Application Framework
+--extra-index-url https://download.pytorch.org/whl/cpu
 shiny
-
-# Core Machine Learning & Data Processing
 torch
 torchvision
 numpy
-pandas
-scikit-learn
-
-# Image Processing
 Pillow
-
-# Data Visualization (Notebook EDA)
-matplotlib
-seaborn

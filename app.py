@@ -8,6 +8,8 @@ from torchvision import transforms
 from PIL import Image
 import pandas as pd
 import os
+from pathlib import Path
+
 
 #---
 #MODEL 
@@ -65,7 +67,7 @@ img_transforms = transforms.Compose([
 ])
 
 DEVICE = torch.device("cpu") #Not everyone has CUDA:)
-MODEL_PATH = "best_satellite_cnn.pth"
+MODEL_PATH = Path(__file__).parent / "best_satellite_cnn.pth"
 
 # Initialize model and load weights
 model = SatelliteResNet9(in_channels=3, num_classes=10).to(DEVICE)
